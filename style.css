@@ -134,6 +134,7 @@ p span {
 footer {
     margin: 0 auto;
     position: relative;
+    bottom: 8px;
 }
 footer .folder {
     margin: 0;
