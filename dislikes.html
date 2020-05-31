@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>marsTerminal 2.0 - dislikes</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <nav>
+            <div class="folder" id="bio">bio</div>
+            <div class="folder" id="likes">likes</div>
+            <div class="folder colored" id="dislikes">dislikes</div>
+            <div class="folder" id="projects">projects</div>
+        </nav>
+        <p class="greeting">
+            Click on a folder. Press Enter to load. Press
+            <span class="popup"
+                >secret key
+                <span class="popuptext" id="myPopup">hint: visit each page for secret characters</span>
+            </span>
+            for admin access.
+        </p>
+
+        <main>
+            <!-- The computer terminal screen -->
+            <div class="terminal">
+                <div class="terminal-content">
+                    <div class="content-folder">
+                        <p>I don't like cheap wine, and not being able to go to Ma<span class="secret">r</span>s.</p>
+                        <br />
+                        <p class="prompt-on">C:\<span id="directory">home</span>\<span>dislikes</span>\</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="folder" id="index">home</div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
