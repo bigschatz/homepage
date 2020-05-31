@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* border: solid 2px black; */
     margin: 0;
 }
 
@@ -87,7 +86,7 @@ main {
     position: absolute;
     text-align: left;
     height: 50vh;
-    width: 50%;
+    width: 55%;
     display: inline-block;
     border: solid 5px black;
     border-radius: 20px;
@@ -201,6 +200,46 @@ span.popup {
     visibility: visible;
     -webkit-animation: fadeIn 250ms;
     animation: fadeIn 250ms;
+}
+
+/* Media queries */
+@media screen and (max-width: 1650px) {
+    nav {
+        flex-wrap: nowrap;
+        /* justify-content: center; */
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .terminal {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .terminal {
+        width: 70%;
+    }
+
+    nav {
+        width: 100%;
+        flex-wrap: no-wrap;
+    }
+    footer {
+        /* width: 50%; */
+        justify-content: center;
+    }
+    footer .folder {
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    nav,
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 /* Keyframes */
