@@ -25,7 +25,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     width: 50%;
-    margin: 50px auto;
+    margin: 2vh auto;
     text-align: center;
 }
 
@@ -68,7 +68,7 @@ footer .colored:hover {
 .greeting {
     width: auto;
     padding: 10px;
-    margin: 3% auto;
+    margin: 4vh auto;
 }
 
 /* Main Content */
@@ -137,7 +137,6 @@ p span {
 footer {
     margin: 0 auto;
     position: relative;
-    bottom: 20px;
 }
 footer .folder {
     margin: 0;
@@ -226,11 +225,8 @@ span.popup {
         flex-wrap: no-wrap;
     }
     footer {
-        /* width: 50%; */
-        justify-content: center;
-    }
-    footer .folder {
-        margin: 2rem auto;
+        width: 50%;
+        justify-content: space-evenly;
     }
 }
 
@@ -238,7 +234,16 @@ span.popup {
     nav,
     footer {
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        position: relative;
+        bottom: 20px;
+    }
+
+    footer .folder {
+        margin: 2rem auto;
     }
 }
 
